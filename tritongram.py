@@ -425,7 +425,7 @@ n = len(filter_list)+1
 print("Welcome to Tritongram, the premier image processing filter suite by UCSD students.")
 path = input("Please provide the path to the image you would like to process:")
 
-# Gather image input r"C:\Users\manas\Downloads\test5.jpg"
+# Gather image input
 img = cv2.imread(path)
 
 idx = int(input("Enter a filter number (1 through "+str(n)+") to view:")) - 1
@@ -434,3 +434,5 @@ idx = int(input("Enter a filter number (1 through "+str(n)+") to view:")) - 1
 out = filter_list[idx](img)
 
 # Show output
+plt.imshow(out)
+plt.show(out)
