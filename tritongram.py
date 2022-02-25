@@ -435,4 +435,4 @@ out = filter_list[idx](img)
 
 # Show output
 plt.imshow(out)
-plt.show(out)
+plt.show()
