@@ -7,7 +7,7 @@ Filters designed by UCSD students of ECE 253 and ECE 172A
 For use by UCSD ECE 253 and 172A students only, 
 in accordance with UCSD Academic Integrity policy. 
 
-Script by regreer@ucsd.edu
+Script by regreer@ucsd.edu, mbedmutha@ucsd.edu
 """
 
 import cv2
